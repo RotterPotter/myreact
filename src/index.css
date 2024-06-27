@@ -46,8 +46,8 @@ body {
     display: flex;
 }
 
-.post_image {
-    width: 100%;
+.post__buttons{
+    display: flex;
 }
 
 .user_info{
@@ -73,4 +73,81 @@ body {
     margin: 3px;
     background-image: url(./assets/good_1_2_optimized.png);
     background-position: center;
+}
+
+/* Tags */
+.tags{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Image */
+.post__image {
+    width: 100%;
+}
+
+/* LikeButton */
+
+.like__section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.like_button{
+    height: 25px;
+    width: 25px;
+    background-image: url(./assets/heart_66744_3_optimized.png);
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.like_stats{
+    height: 25px;
+    width: 45px;
+    margin-right: 20px;
+    align-content: center;
+}
+
+/* CommentButton */
+.comment_button__section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comment_button{
+    height: 25px;
+    width: 25px;
+    background-image: url(./assets/chat_134800_optimized.png);
+    background-position: center;
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.comment_stats{
+    height: 25px;
+    width: 45px;
+    align-content: center
+}
+
+/* MoreButton */
+.more_button{
+    height: 25px;
+    width: 25px;
+    background-image: url(./assets/more-options_70339_optimized.png);
+    background-position: center;
+    margin-left: 155px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }

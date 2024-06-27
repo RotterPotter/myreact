@@ -1,6 +1,6 @@
 function Tags() {
     return (
-        null
+        <div className="tags">tags</div>
     );
 }
 
