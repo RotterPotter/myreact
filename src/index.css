@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(128, 128, 128, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}  
+
+
+/* Header */
+.navbar{
+    display: flex;
+    margin: 20px;
+    font-size: large;
+    font-weight: 520;
+}
+
+.navbar > div{
+    width: 50%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu > div{
+    width: 40%;
+    text-align: right;
+}
+
+/* Hero */
+.post_wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 50px 50px;
+}
+
+/* Post */
+.post{
+    background-color:white;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.post__header{
+    display: flex;
+}
+
+.post_image {
+    width: 100%;
+}
+
+.user_info{
+    display: flex;
+    align-items: center;
+}
+
+.user_info > span{
+    padding: 5px;
+    text-align: left;
+    margin-left: 5px;
+    width: 200px;
+}
+
+/* Avatar */
+.user_ava {
+    height: 35px;
+    width: 35px;
+    /* padding: 7px; */
+    border-radius: 20px;
+    /* background-color: blue; */
+    justify-content: center;
+    margin: 3px;
+    background-image: url(./assets/good_1_2_optimized.png);
+    background-position: center;
+}
